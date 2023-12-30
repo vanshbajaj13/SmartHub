@@ -762,7 +762,7 @@ select.form-control.has-value {
 .navbar-brand {
     font-size: inherit;
     height: auto;
-    background: url(/img/LOGO-color1.svg) center center no-repeat;
+    background: url(../img/LOGO-color1.svg) center center no-repeat;
     width: 144px;
     height: 84px;
     margin-left: 15px;
@@ -774,7 +774,7 @@ select.form-control.has-value {
 }
 
 .affix .navbar-brand {
-    background: url(/img/LOGO.svg) center center no-repeat;
+    background: url(../img/LOGO.svg) center center no-repeat;
 }
 
 .menu {
@@ -951,7 +951,7 @@ select.form-control.has-value {
         background: transparent linear-gradient(270deg, #D10050 0%, #290091 100%) 0% 0% no-repeat;
     }
     .grayBack {
-        background: url(/img/Building2.png) 348px 35px no-repeat #E6E6E6;
+        background: url(img/Building2.png) 348px 35px no-repeat #E6E6E6;
         background-size: 100% 100%;
     }
     .mrr50 {
@@ -1111,7 +1111,7 @@ select.form-control.has-value {
 .hero-bg-1:before {
     position: absolute;
     content: '';
-    background: url("../img/slider-bg-2.svg")no-repeat center bottom / cover;
+    background: url("img/slider-bg-2.svg")no-repeat center bottom / cover;
     width: 100%;
     height: 100%;
     top: 0;
@@ -1122,7 +1122,7 @@ select.form-control.has-value {
 .hero-bg-2:before {
     position: absolute;
     content: '';
-    background: url("../img/slider-bg-1.svg")no-repeat center bottom / cover;
+    background: url("img/slider-bg-1.svg")no-repeat center bottom / cover;
     width: 100%;
     height: 100%;
     top: 0;
@@ -1454,7 +1454,7 @@ select.form-control.has-value {
     line-height: 60px;
     font-weight: 700;
     margin: 0;
-    background: #7202bb url("../img/yers-bg.jpg") no-repeat;
+    background: #7202bb url("img/yers-bg.jpg") no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: cover;
@@ -1467,7 +1467,7 @@ select.form-control.has-value {
 }
 
 .year-highlight-text h4 sub {
-    background: #1A2C79 url(../img/yers-bg.jpg) no-repeat;
+    background: #1A2C79 url(img/yers-bg.jpg) no-repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: auto;
@@ -2859,27 +2859,27 @@ a.video-play-icon-without-bip:hover {
 }
 
 .promo-hover-bg-1:before {
-    background-image: url("../img/blog/1.jpg");
+    background-image: url("img/blog/1.jpg");
 }
 
 .promo-hover-bg-2:before {
-    background-image: url("../img/blog/2.jpg");
+    background-image: url("img/blog/2.jpg");
 }
 
 .promo-hover-bg-3:before {
-    background-image: url("../img/blog/3.jpg");
+    background-image: url("img/blog/3.jpg");
 }
 
 .promo-hover-bg-4:before {
-    background-image: url("../img/blog/4.jpg");
+    background-image: url("img/blog/4.jpg");
 }
 
 .promo-hover-bg-5:before {
-    background-image: url("../img/blog/5.jpg");
+    background-image: url("img/blog/5.jpg");
 }
 
 .promo-hover-bg-6:before {
-    background-image: url("../img/blog/6.jpg");
+    background-image: url("img/blog/6.jpg");
 }
 
 .single-promo-block:before {
@@ -3003,7 +3003,7 @@ not all {
     height: 80%;
     left: 15%;
     top: 22%;
-    background-image: url(../img/globe-bg.png);
+    background-image: url(img/globe-bg.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
