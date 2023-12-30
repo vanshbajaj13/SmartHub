@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Attendance Management</title>
+    <!--favicon icon-->
+    <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/responsive.css" rel="stylesheet" type="text/css">
+
+    <style>
+        .mobimg33 {
+            position: relative;
+        }
+
+        #Lead_Source {
+            display: none;
+        }
+
+        .bluebtn {
+            border: 0;
+            padding: 6px 20px;
+        }
+
+        .zcwf_col_lab {
+            display: none;
+        }
+
+        .zcwf_row input[type=text],
+        select.zcwf_col_fld_slt {
+            width: 100%;
+            background: #ebebeb;
+            border: 1px solid #ebebeb;
+            height: 33px;
+            border-radius: 40px;
+            display: inline-block;
+            margin-bottom: 5px;
+            padding: 10px 20px;
+            color: #ADADAD;
+            font-style: normal;
+            outline: none;
+            font-size: 13px;
+        }
+
+        select.zcwf_col_fld_slt {
+            padding: 0px 20px;
+            color: #757575;
+        }
+
+        .zcwf_row input [type="button"] {
+            width: auto;
+            margin: 5px auto !important;
+            border: 0;
+            display: block;
+            padding: 10px 40px;
+            border-radius: 10px;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-style: normal;
+            margin-left: 0;
+        }
+
+        .bgbtm tr {
+            position: relative
+        }
+
+        #crmWebToEntityForm {
+            border: 1px solid #c20056;
+            border-radius: 20px;
+            padding: 10px;
+            border-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width:100%;" class="bgbtm">
+        <tr>
+            <td colspan="2" style="text-align:center" class="pt-3 pb-3">
+                <img src="/images/NeedHelpText.png">
+            </td>
+        </tr>
+        <tr>
+            <td class="pl-2">
+                <div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: white; color: black; max-width: 100%;'>
+                    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+                    <meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+                    <form action='https://crm.zoho.com/crm/WebToLeadForm' name="WebToLeads2927661000062301059" method='POST' onsubmit='javascript:document.charset="UTF-8"; return checkMandatory2927661000062301059()' accept-charset='UTF-8' target="_parent">
+                        <input type='text' style='display: none;' name='xnQsjsdp' value='f9431b8fe77f0d6cdc23759e0b4a1e7d8a4fe2858ce0a042a944267656a67391'></input>
+                        <input type='hidden' name='zc_gad' id='zc_gad' value=''></input>
+                        <input type='text' style='display: none;' name='xmIwtLD' value='fb8b7d0301ce3e8080cdc706333e10ef1610e17e58ca2d2b1c652f7a16678d8a'></input>
+                        <input type='text' style='display: none;' name='actionType' value='TGVhZHM='></input>
+                        <input type='text' style='display: none;' name='returnURL' value='https://www.esmartguard.com/thank-for-contact.aspx'> </input>
+
+                        <div class='zcwf_title ' style='max-width: 100%; color: black; text-align: center'>
+                        </div>
+                        <div class='zcwf_row'>
+                            <div class='zcwf_col_lab' >
+                                <label for='Last_Name'>Name<span style='color: red;'>*</span></label></div>
+                            <div class='zcwf_col_fld'>
+                                <input type='text' id='Last_Name' name='Last Name' maxlength='80' placeholder="Name"></input>
+                                <div class='zcwf_col_help'></div>
+                            </div>
+                        </div>
+                        <div class='zcwf_row'>
+                            <div class='zcwf_col_lab' >
+                                <label for='Mobile'>Mobile No.<span style='color: red;'>*</span></label></div>
+                            <div class='zcwf_col_fld'>
+                                <input type='text' id='Mobile' name='Mobile' maxlength='30' placeholder="Mobile No."></input>
+                                <div class='zcwf_col_help'></div>
+                            </div>
+                        </div>
+                        <div class='zcwf_row'>
+                            <div class='zcwf_col_lab' >
+                                <label for='Email'>Email<span style='color: red;'>*</span></label></div>
+                            <div class='zcwf_col_fld'>
+                                <input type='text' ftype='email' id='Email' name='Email' maxlength='100' placeholder="Email"></input>
+                                <div class='zcwf_col_help'></div>
+                            </div>
+                        </div>
+                        <div class='zcwf_row'>
+                            <div class='zcwf_col_lab' >
+                                <label for='City'>City<span style='color: red;'>*</span></label></div>
+                            <div class='zcwf_col_fld'>
+                                <input type='text' id='City' name='City' maxlength='100' placeholder="City"></input>
+                                <div class='zcwf_col_help'></div>
+                            </div>
+                        </div>
+                        <div class='zcwf_row'>
+                            <div class='zcwf_col_lab' >
+                                <label for='LEADCF329'>State.</label></div>
+                            <div class='zcwf_col_fld'>
+                                <select class='zcwf_col_fld_slt' id='LEADCF329' name='LEADCF329'>
+                                    <option value='-None-'>-None-</option>
+                                    <option value='Andaman&#x20;and&#x20;Nicobar&#x20;Islands'>Andaman and Nicobar Islands</option>
+                                    <option value='Andhra&#x20;Pradesh'>Andhra Pradesh</option>
+                                    <option value='Arunachal&#x20;Pradesh'>Arunachal Pradesh</option>
+                                    <option value='Assam'>Assam</option>
+                                    <option value='Bihar'>Bihar</option>
+                                    <option value='Chandigarh'>Chandigarh</option>
+                                    <option value='Chhattisgarh'>Chhattisgarh</option>
+                                    <option value='Dadra&#x20;and&#x20;Nagar&#x20;Haveli'>Dadra and Nagar Haveli</option>
+                                    <option value='Daman&#x20;and&#x20;Diu'>Daman and Diu</option>
+                                    <option value='Delhi'>Delhi</option>
+                                    <option value='Goa'>Goa</option>
+                                    <option value='Gujarat'>Gujarat</option>
+                                    <option value='Haryana'>Haryana</option>
+                                    <option value='Himachal&#x20;Pradesh'>Himachal Pradesh</option>
+                                    <option value='Jammu&#x20;and&#x20;Kashmir'>Jammu and Kashmir</option>
+                                    <option value='Jharkhand'>Jharkhand</option>
+                                    <option value='Karnataka'>Karnataka</option>
+                                    <option value='Kerala'>Kerala</option>
+                                    <option value='Ladakh'>Ladakh</option>
+                                    <option value='Lakshadweep'>Lakshadweep</option>
+                                    <option value='Madhya&#x20;Pradesh'>Madhya Pradesh</option>
+                                    <option value='Maharashtra'>Maharashtra</option>
+                                    <option value='Manipur'>Manipur</option>
+                                    <option value='Meghalaya'>Meghalaya</option>
+                                    <option value='Mizoram'>Mizoram</option>
+                                    <option value='Nagaland'>Nagaland</option>
+                                    <option value='Odisha'>Odisha</option>
+                                    <option value='Puducherry'>Puducherry</option>
+                                    <option value='Punjab'>Punjab</option>
+                                    <option value='Rajasthan'>Rajasthan</option>
+                                    <option value='Sikkim'>Sikkim</option>
+                                    <option value='Tamil&#x20;Nadu'>Tamil Nadu</option>
+                                    <option value='Telangana'>Telangana</option>
+                                    <option value='Tripura'>Tripura</option>
+                                    <option value='Uttarakhand'>Uttarakhand</option>
+                                    <option value='Uttar&#x20;Pradesh'>Uttar Pradesh</option>
+                                    <option value='West&#x20;Bengal'>West Bengal</option>
+                                    <option value='Other'>Other</option>
+                                </select>
+                                <div class='zcwf_col_help'></div>
+                            </div>
+                        </div>
+                        <div class='zcwf_row'>
+                            <div class='zcwf_col_lab' >
+                                <label for='Company'>Organization<span style='color: red;'>*</span></label></div>
+                            <div class='zcwf_col_fld'>
+                                <input type='text' id='Company' name='Company' maxlength='100' placeholder="Organization"></input>
+                                <div class='zcwf_col_help'></div>
+                            </div>
+                        </div>
+                        <div class='zcwf_row wfrm_fld_dpNn'>
+                            <div class='zcwf_col_lab'>
+                                <label for='Lead_Source'>Lead Source</label></div>
+                            <div class='zcwf_col_fld'>
+                                <select class='zcwf_col_fld_slt' id='Lead_Source' name='Lead Source'>
+                                    <option value='-None-'>-None-</option>
+                                    <option value='Web&#x20;Enquiry&#x20;Form'>Web Enquiry Form</option>
+                                    <option value='Popup&#x20;Form'>Popup Form</option>
+                                    <option selected value='Landing-Attendance'>Landing-Attendance</option>
+                                    <option value='Landing-VMS'>Landing-VMS</option>
+                                    <option value='Chatbot'>Chatbot</option>
+                                    <option value='Dis-Chen-Murugavel'>Dis-Chen-Murugavel</option>
+                                    <option value='Cold&#x20;Call'>Cold Call</option>
+                                    <option value='Inbound&#x20;Call'>Inbound Call</option>
+                                    <option value='Email&#x20;Marketing'>Email Marketing</option>
+                                    <option value='Event&#x20;Marketing'>Event Marketing</option>
+                                    <option value='Google&#x20;Ads'>Google Ads</option>
+                                    <option value='Referral'>Referral</option>
+                                    <option value='Facebook'>Facebook</option>
+                                    <option value='Instagram'>Instagram</option>
+                                    <option value='Advertisement'>Advertisement</option>
+                                    <option value='e-Care&#x20;Data&#x20;&#x28;India&#x29;'>e-Care Data &#x28;India&#x29;</option>
+                                    <option value='Employee&#x20;Referral'>Employee Referral</option>
+                                    <option value='External&#x20;Referral'>External Referral</option>
+                                    <option value='Online&#x20;Store'>Online Store</option>
+                                    <option value='Twitter'>Twitter</option>
+                                    <option value='Partner'>Partner</option>
+                                    <option value='Google&#x2b;'>Google&#x2b;</option>
+                                    <option value='Public&#x20;Relations'>Public Relations</option>
+                                    <option value='Sales&#x20;Email&#x20;Alias'>Sales Email Alias</option>
+                                    <option value='Seminar&#x20;Partner'>Seminar Partner</option>
+                                    <option value='Internal&#x20;Seminar'>Internal Seminar</option>
+                                    <option value='Trade&#x20;Show'>Trade Show</option>
+                                    <option value='Web&#x20;Download'>Web Download</option>
+                                    <option value='Web&#x20;Research'>Web Research</option>
+                                    <option value='Chat'>Chat</option>
+                                    <option value='Flipkart'>Flipkart</option>
+                                    <option value='Amazon'>Amazon</option>
+                                    <option value='Paytm&#x20;Mall'>Paytm Mall</option>
+                                    <option value='Snapdeal'>Snapdeal</option>
+                                    <option value='Distributors&#x20;&#x28;INDIA&#x29;'>Distributors &#x28;INDIA&#x29;</option>
+                                    <option value='Distributors&#x20;&#x28;UAE&#x29;'>Distributors &#x28;UAE&#x29;</option>
+                                    <option value='Future&#x20;MSK&#x20;Distributors&#x20;&#x28;INDIA&#x29;'>Future MSK Distributors &#x28;INDIA&#x29;</option>
+                                    <option value='Future&#x20;MSK&#x20;Distributors&#x20;&#x28;UAE&#x29;'>Future MSK Distributors &#x28;UAE&#x29;</option>
+                                    <option value='Facebook&#x20;Ads'>Facebook Ads</option>
+                                    <option value='Google&#x20;AdWords'>Google AdWords</option>
+                                    <option value='WhatsApp'>WhatsApp</option>
+                                    <option value='Excel&#x20;Data_April2021'>Excel Data_April2021</option>
+                                    <option value='Dis-Delhi-Sumeet'>Dis-Delhi-Sumeet</option>
+                                    <option value='Dis-Pun-Jaspal'>Dis-Pun-Jaspal</option>
+                                    <option value='Dis-Uttarakhand-Ankur'>Dis-Uttarakhand-Ankur</option>
+                                    <option value='Excel&#x20;Data_June2021'>Excel Data_June2021</option>
+                                </select>
+                                <div class='zcwf_col_help'></div>
+                            </div>
+                        </div>
+                        <div class='zcwf_row'>
+                            <div class='zcwf_col_lab'></div>
+                            <div class='zcwf_col_fld text-center'>
+                                <input type='submit' id='formsubmit' class='formsubmit zcwf_button bluebtn m-0 mr-1' value='Submit' title='Submit'><input type='reset' class='zcwf_button bluebtn m-0' name='reset' value='Reset' title='Reset'></div>
+                        </div>
+                        <script>
+                            function validateEmail2927661000062301059() {
+                                var form = document.forms['WebToLeads2927661000062301059'];
+                                var emailFld = form.querySelectorAll('[ftype=email]');
+                                var i;
+                                for (i = 0; i < emailFld.length; i++) {
+                                    var emailVal = emailFld[i].value;
+                                    if ((emailVal.replace(/^\s+|\s+$/g, '')).length != 0) {
+                                        var atpos = emailVal.indexOf('@');
+                                        var dotpos = emailVal.lastIndexOf('.');
+                                        if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
+                                            alert('Please enter a valid email address. ');
+                                            emailFld[i].focus();
+                                            return false;
+                                        }
+                                    }
+                                }
+                                return true;
+                            }
+
+                            function checkMandatory2927661000062301059() {
+                                var mndFileds = new Array('Company', 'Last Name', 'Email', 'Mobile', 'City');
+                                var fldLangVal = new Array('Organization', 'Name', 'Email', 'Mobile\x20No.', 'City');
+                                for (i = 0; i < mndFileds.length; i++) {
+                                    var fieldObj = document.forms['WebToLeads2927661000062301059'][mndFileds[i]];
+                                    if (fieldObj) {
+                                        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+                                            if (fieldObj.type == 'file') {
+                                                alert('Please select a file to upload.');
+                                                fieldObj.focus();
+                                                return false;
+                                            }
+                                            alert(fldLangVal[i] + ' cannot be empty.');
+                                            fieldObj.focus();
+                                            return false;
+                                        } else if (fieldObj.nodeName == 'SELECT') {
+                                            if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+                                                alert(fldLangVal[i] + ' cannot be none.');
+                                                fieldObj.focus();
+                                                return false;
+                                            }
+                                        } else if (fieldObj.type == 'checkbox') {
+                                            if (fieldObj.checked == false) {
+                                                alert('Please accept  ' + fldLangVal[i]);
+                                                fieldObj.focus();
+                                                return false;
+                                            }
+                                        }
+                                        try {
+                                            if (fieldObj.name == 'Last Name') {
+                                                name = fieldObj.value;
+                                            }
+                                        } catch (e) {}
+                                    }
+                                }
+                                if (!validateEmail2927661000062301059()) {
+                                    return false;
+                                }
+                                document.querySelector('.crmWebToEntityForm .formsubmit').setAttribute('disabled', true);
+                            }
+
+                            function tooltipShow2927661000062301059(el) {
+                                var tooltip = el.nextElementSibling;
+                                var tooltipDisplay = tooltip.style.display;
+                                if (tooltipDisplay == 'none') {
+                                    var allTooltip = document.getElementsByClassName('zcwf_tooltip_over');
+                                    for (i = 0; i < allTooltip.length; i++) {
+                                        allTooltip[i].style.display = 'none';
+                                    }
+                                    tooltip.style.display = 'block';
+                                } else {
+                                    tooltip.style.display = 'none';
+                                }
+                            }
+                        </script>
+                        <!-- Do not remove this --- Analytics Tracking code starts -->
+                        <script id='wf_anal' src='https://crm.zohopublic.com/crm/WebFormAnalyticsServeServlet?rid=fb8b7d0301ce3e8080cdc706333e10ef1610e17e58ca2d2b1c652f7a16678d8agidf9431b8fe77f0d6cdc23759e0b4a1e7d8a4fe2858ce0a042a944267656a67391gid885e3c1045bd9bdcc91bdf30f82b5696gid14f4ec16431e0686150daa43f3210513'></script>
+                        <!-- Do not remove this --- Analytics Tracking code ends. -->
+                    </form>
+                </div>
+            </td>
+            <td style="vertical-align:bottom; text-align:right">
+                <img src="/images/girls.png" class="mobimg33">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div class="zcwf_row gradient-bg text-center p-2">
+                    <img src="/images/flyerlogo.png">
+                </div>
+
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

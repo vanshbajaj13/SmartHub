@@ -1,0 +1,238 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+    html {
+        font-size: 14px;
+    }
+    /*.feature-tabs li:last-child
+    { margin:0;
+    }*/
+    .navbar .menu li a.ademo {
+        border: 2px solid #fff;
+        border-radius: 8px;
+        color: #fff;
+    }
+    h1 {
+        font-size: 2.25rem;
+    }
+    h2 {
+        font-size: 1.7441em;
+    }
+    .mt--120 {
+        margin-top: -50px;
+    }
+    .pt-150 {
+        padding-top: 50px;
+    }
+    .ptb-150 {
+        padding: 90px 0;
+    }
+    .hero-slider-content h1 {
+        font-size: 2.25rem;
+    }
+    .action-btns a.btn,
+    .app-download-list li {
+        margin-bottom: 15px;
+    }
+    /*ceo message*/
+    .year-highlight-text h4 sub {
+        top: -10px;
+    }
+    .year-highlight-text h4 span {
+        font-size: 215px;
+        line-height: 150px;
+    }
+    /*switchable block*/
+    .core-idea-wrap.ptb-100 {
+        padding-top: 15px;
+    }
+    /*portfolio*/
+    .filter-btn {
+        margin-bottom: 10px;
+    }
+    .portfolio-item,
+    .gap {
+        width: auto;
+    }
+    /*testimonial with counter*/
+    .counter-wrap {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .counter-wrap li {
+        padding: 15px;
+    }
+    .contact-us-form .form-group {
+        margin-bottom: 0;
+    }
+    .arrow-indicator.owl-theme .owl-nav {
+        position: relative;
+    }
+    /*blog*/
+    .single-blog-card {
+        margin-bottom: 0;
+    }
+    /*all col*/
+    div[class*='col-']:not(:last-of-type) {
+        margin-bottom: 20px !important;
+    }
+    .row>div[class*='col-']:last-of-type {
+        margin-bottom: 0;
+    }
+    .footer-bottom .row>div[class*='col-']:first-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .mt--120 {
+        margin-top: -50px;
+    }
+    .pt-150 {
+        padding-top: 60px;
+    }
+    .action-btns a.btn {
+        margin-bottom: 15px;
+    }
+    /*ceo message*/
+    .year-highlight-text h4 sub {
+        top: -10px;
+    }
+    .year-highlight-text h4 span {
+        font-size: 215px;
+        line-height: 150px;
+    }
+    /*switchable block*/
+    .core-idea-wrap.ptb-100 {
+        padding-top: 15px;
+    }
+    /*portfolio*/
+    .filter-btn {
+        margin-bottom: 10px;
+    }
+    .portfolio-item,
+    .gap {
+        width: auto;
+    }
+    /*testimonial with counter*/
+    .counter-wrap {
+        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    }
+    .counter-wrap li {
+        padding: 15px;
+    }
+    .contact-us-form .form-group {
+        margin-bottom: 0;
+    }
+    .arrow-indicator.owl-theme .owl-nav {
+        position: relative;
+    }
+    /*blog*/
+    .single-blog-card {
+        margin-bottom: 0;
+    }
+    /*promo*/
+    div[class*='col-']:not(:last-of-type) {
+        margin-bottom: 20px !important;
+    }
+    .row>div[class*='col-']:last-of-type {
+        margin-bottom: 0;
+    }
+    .footer-bottom .row>div[class*='col-']:first-child {
+        margin-bottom: 0 !important;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .mt--120 {
+        margin-top: -50px;
+    }
+    .action-btns a.btn {
+        margin-bottom: 15px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 990px) {}
+
+@media only screen and (min-width: 768px) and (max-width :1024px) {
+    .grayBack {
+        background-position: 345px -135px;
+    }
+}
+
+@media (max-width: 767px) {
+    .f65 {
+        font-size: 40px;
+    }
+    .visitor h3 {
+        line-height: 40px;
+    }
+    .f34 {
+        font-size: 25px;
+    }
+    .f22 {
+        text-align: left;
+    }
+    .lh74 {
+        line-height: 45px;
+        font-size: 35px;
+    }
+    .howit h3,
+    .f-47 {
+        font-size: 35px;
+    }
+    .f70 {
+        font-size: 45px;
+    }
+    .mrr50 {
+        margin-right: 0px;
+    }
+    .grayBack {
+        background: url(/img/Building2.png) no-repeat #E6E6E6;
+        background-position: 51px -135px;
+    }
+    .feature-tabs li {
+        margin: 5px 3px;
+    }
+    .feature-tabs li a h6 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .bg-transparent ul li a {
+        color: #fff;
+    }
+    .bg-transparent ul.sub-menu li a {
+        color: #2C0090
+    }
+    .bg-transparent ul.sub-menu li a:hover {
+        color: #fff;
+    }
+    .mttop a,
+    .mgntop {
+        margin-top: 0;
+        top: 0;
+    }
+}
+
+@media (max-width: 1025px) {
+    .mrr50 {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width :1025px) {
+    .feature-tabs li:last-child {
+        margin: 10px 0px 0px 0px;
+    }
+}
